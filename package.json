@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "budo bundle.js --host localhost --live --open -- -t [ babelify --presets [ es2015 react ] --plugins [ transform-object-rest-spread ] ]"
+    "start": "budo bundle.js --host localhost --live --open -- -t babelify"
   },
   "dependencies": {
     "react": "15.6.1",
